@@ -1,0 +1,60 @@
+#encabezado{
+    color: #fff;
+    background-color: #3a464b;
+
+}
+
+/* Logo del negocio */
+.logo-negocio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+/* Logo Hermes */
+
+.logo-hermes {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+}
+
+.logo-hermes a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo-hermes-encabezado {
+    width: 2em;
+    color: #fff;
+}
+
+/* Menu de navegación */
+
+.contenedor-menu-navegacion {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-navegacion {
+    padding-left: 1em;
+    padding-right: 0em;
+}
+.menu-navegacion a{
+    font-size: 1em;
+    color: #fff;
+    margin-left: 0.8em;
+    margin-right: 0em;
+    width: 6em;
+    border-radius: 0.5em;
+    /* border: 1px solid white; */
+    text-align: center;
+    
+}
+
+.menu-navegacion a:hover{
+    background-color: rgb(14, 206, 142);
+    font-weight: bolder;
+}
